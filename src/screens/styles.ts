@@ -24,12 +24,12 @@ export const ViewButton = styled.View`
 export const Title = styled.Text`
     font-size: ${RFValue(25)}px;
     text-align: center;
-    margin-top: ${RFValue(50)}px;
+    margin-top: ${RFValue(40)}px;
     font-family: ${({ theme }: { theme: ThemeType }) => theme.FONTS.POPPINSMEDIUM};
 `;
 
 export const Description = styled.Text`
-    margin-top: ${RFValue(50)}px;
+    margin-top: ${RFValue(40)}px;
     font-size: ${RFValue(12)}px;
     text-align: center;
     font-family: ${({ theme }: { theme: ThemeType }) => theme.FONTS.POPPINSLIGHT};

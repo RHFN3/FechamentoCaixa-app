@@ -13,7 +13,7 @@ import {
     ViewButton,
 } from './styles';
 
-const Login: React.FC = () => {
+const SignUp: React.FC = () => {
     return (
         <SafeAreaView>
             <Container>
@@ -22,7 +22,7 @@ const Login: React.FC = () => {
                     <Description>Cadastre-se com</Description>
                     <ViewButton>
                         <ButtonSocialGoogle title="" />
-                        <ButtonSocial iconName='facebook' backgroundColor='#1877F2'/>
+                        <ButtonSocial iconName='facebook' backgroundColor='#1877F2' />
                         <ButtonSocial iconName='apple' backgroundColor='gray'/>
                         
                     </ViewButton>
@@ -40,4 +40,4 @@ const Login: React.FC = () => {
     );
 };
 
-export { Login };
+export { SignUp };

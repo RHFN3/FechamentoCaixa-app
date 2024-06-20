@@ -19,7 +19,7 @@ import { DMSerifDisplay_400Regular } from "@expo-google-fonts/dm-serif-display";
 
 import COLORS from "../styles/theme";
 
-import { Login } from '../screens/Login';
+import { SignUp } from '../screens/SignUp';
 
 
 SplashScreen.preventAutoHideAsync();
@@ -69,7 +69,7 @@ const App: React.FC = () => {
         <ThemeProvider theme={COLORS}>
             <StatusBar style="dark" backgroundColor="transparent" translucent />
             <View onLayout={onLayoutRootView}>
-                <Login />
+                <SignUp />
             </View>
         </ThemeProvider>
         </GestureHandlerRootView>
