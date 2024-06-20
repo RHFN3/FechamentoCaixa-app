@@ -22,9 +22,9 @@ export const ViewButton = styled.View`
 `;
 
 export const Title = styled.Text`
-    font-size: ${RFValue(20)}px;
+    font-size: ${RFValue(25)}px;
     text-align: center;
-    margin-top: ${RFValue(20)}px;
+    margin-top: ${RFValue(50)}px;
     font-family: ${({ theme }: { theme: ThemeType }) => theme.FONTS.POPPINSMEDIUM};
 `;
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import { SafeAreaView } from 'react-native';
 import { ButtonSocialGoogle } from '@src/components/ButtonSocialGoogle/ButtonSocialGoogle';
+import { ButtonSocial } from '@src/components/ButtonSocial/ButtonSocial';
 
 import { 
     Container,
@@ -20,8 +21,10 @@ const Login: React.FC = () => {
                     <Title>Seja bem vindo(a) ao {"\n"}Fechamento Caixa App</Title>
                     <Description>Cadastre-se com</Description>
                     <ViewButton>
-                        <ButtonSocialGoogle title="Google" />
-                        <ButtonSocialGoogle title="Google" />
+                        <ButtonSocialGoogle title="" />
+                        <ButtonSocial iconName='facebook' backgroundColor='#1877F2'/>
+                        <ButtonSocial iconName='apple' backgroundColor='gray'/>
+                        
                     </ViewButton>
                 </ContentHeader>
 

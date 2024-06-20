@@ -1,4 +1,5 @@
 import styled from "styled-components/native";
+import { Fontisto } from '@expo/vector-icons'
 import { RectButton } from "react-native-gesture-handler";
 import { RFValue } from "react-native-responsive-fontsize";
 import { ThemeType } from "styled-components";
@@ -7,7 +8,6 @@ import { ThemeType } from "styled-components";
 export const Button = styled(RectButton)`
     width: ${RFValue(60)}px;
     height: ${RFValue(60)}px;
-    background-color: ${({ theme }: { theme: ThemeType }) => theme.COLORS.GRAY5};
     border-radius: ${RFValue(8)}px;
     align-items: center;
     justify-content: center;
@@ -16,9 +16,11 @@ export const Button = styled(RectButton)`
     margin-left: ${RFValue(10)}px;
 `;
 
-export const IconGoogle = styled.Image`
-    width: ${RFValue(40)}px;
-    height: ${RFValue(40)}px;
+export const Icon = styled(Fontisto)` 
+   font-size: ${RFValue(28)}px;
+   align-items: center;
+   justify-content: center;
+   color: ${({ theme }: { theme: ThemeType }) => theme.COLORS.WHITE}; 
 `;
 
 export const Title = styled.Text`
