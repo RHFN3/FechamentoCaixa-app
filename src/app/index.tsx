@@ -16,6 +16,7 @@ import {
 } from "@expo-google-fonts/poppins";
 import { DMSans_400Regular } from "@expo-google-fonts/dm-sans";
 import { DMSerifDisplay_400Regular } from "@expo-google-fonts/dm-serif-display";
+import { FiraMono_400Regular  } from "@expo-google-fonts/fira-mono"
 
 import COLORS from "../styles/theme";
 
@@ -39,9 +40,10 @@ const App: React.FC = () => {
             Poppins_800ExtraBold,
             DMSans_400Regular,
             DMSerifDisplay_400Regular,
+            FiraMono_400Regular,
         });
         
-        await new Promise(resolve => setTimeout(resolve, 2000));
+        await new Promise(resolve => setTimeout(resolve, 1000));
       } catch (e) {
         console.warn(e);
       } finally {

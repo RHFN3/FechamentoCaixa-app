@@ -1260,6 +1260,11 @@
   resolved "https://registry.npmjs.org/@expo-google-fonts/dm-serif-display/-/dm-serif-display-0.2.3.tgz"
   integrity sha512-RdhKvpjCFg05q9S1z4S2+mdxr3QPjNjsgFT8pUVF8w2iP+l4HYkywxLC2gGH35LxL0jncdGhCAM1eTpK5qaP7A==
 
+"@expo-google-fonts/fira-mono@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.npmjs.org/@expo-google-fonts/fira-mono/-/fira-mono-0.2.3.tgz"
+  integrity sha512-DfugfwHBQ/gqK9iEoMDej92rQu2Ibb3JoFW6O3AxltxawlTh8lopHZO3zHubeT5361o+G08JqyKauXvGEj6X3A==
+
 "@expo-google-fonts/inter@^0.2.3":
   version "0.2.3"
   resolved "https://registry.npmjs.org/@expo-google-fonts/inter/-/inter-0.2.3.tgz"
